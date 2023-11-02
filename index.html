@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    <input type="text" id="ddlRPS">
-    <button type="button" onclick="game()">Play</button>
+    <button id="btnRock" class="button" value="rock">Rock</button>
+    <button id="btnPaper" class="button" value="paper">Paper</button>
+    <button id="btnScissors" class="button" value="scissors">Scissors</button>
     <br>
-    <p id="label"></p>
+    <p></p>
+    <div id="score"></div>
+    <label></label>
 </body>
 </html>
